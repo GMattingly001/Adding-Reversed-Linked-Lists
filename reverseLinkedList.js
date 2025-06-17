@@ -11,7 +11,6 @@
  * 5 -> 6 -> 4 becomes 4 -> 5 -> 6
  * total = 342 + 456 = 807
  */
-//some changes
 
 // Definition for singly-linked list.
 function ListNode(val, next) {
