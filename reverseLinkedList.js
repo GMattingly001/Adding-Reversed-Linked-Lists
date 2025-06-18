@@ -13,9 +13,11 @@
  */
 
 // Definition for singly-linked list.
-function ListNode(val, next) {
-  this.val = val === undefined ? 0 : val;
-  this.next = next === undefined ? null : next;
+class ListNode {
+  constructor(val = 0, next = null) {
+    this.val = val;
+    this.next = next;
+  }
 }
 
 /**
